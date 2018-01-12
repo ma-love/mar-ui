@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Docs from './docs'
+import Document from './document'
 import Examples from './examples'
 
 Vue.use(Router)
 
-const routes = [...Docs, ...Examples]
+const routes = [...Document, ...Examples]
 
 const router = new Router({
   routes

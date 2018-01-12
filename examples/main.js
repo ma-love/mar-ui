@@ -5,6 +5,8 @@ import router from './router'
 import MrUI from '../packages'
 import '../packages/styles/index.less'
 
+import '@/assets/less/index.less'
+
 Vue.use(MrUI)
 
 Vue.config.productionTip = false
